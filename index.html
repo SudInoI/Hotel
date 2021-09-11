@@ -16,7 +16,6 @@
                 <img src="/img/svg/logo.svg" alt="toxin" class="header_logo-pic">
             </a>
         </div>
-
         <nav class="header_nav">
             <ul class="header_list">
                 <li class="header_item">
@@ -36,13 +35,43 @@
                 </li>
             </ul>
         </nav>
+        <button class="header-button_login">войти</button>
+        <button class="header-button_account">зарегистрироваться</button>
     </div>
     </div>
     </header>
 
     <main class="main">
         <section class="intro">
-            
+            <div class="wrapper">
+                <form class="room-form">
+                    <fieldset class="room-form_wrap">
+                        <p class="room-form_title">
+                            Найдем номера под ваши пожелания
+                        </p>
+                        <div class="room-form_field_wrap">
+                        <p class="room-form_text">
+                            прибытие
+                        </p>
+                        <input type="date" class="room-form_field room-form_field_date">
+                        </div>
+                        <div class="room-form_field_wrap">
+                            <p class="room-form_text">
+                                выезд
+                            </p>
+                        <input type="date" class="room-form_field room-form_field_date">
+                        </div>
+                        <div class="room-form_field_wrap room-form_field_wrap_guest">
+                            <p class="room-form_text">
+                            гости
+                        </p>
+                            <input type="number" class="room-form_field room-form_field_guest" placeholder="Сколько гостей">
+                        <button class="room-form_button">подобрать номер</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
         </section>
     </main>
 </body>
