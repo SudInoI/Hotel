@@ -650,7 +650,6 @@ body {
 /*Footer styles start*/
 
 .footer {
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -665,7 +664,7 @@ body {
   padding-bottom: 100px;
 }
 .footer_logo {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .footer_slogan {
   max-width: 260px;
@@ -680,7 +679,7 @@ body {
   margin-bottom: 20px;
 }
 .footer_item:first-child {
-    line-height: 15px;
+  line-height: 15px;
 }
 .footer_link {
   font-size: 14px;
@@ -705,32 +704,52 @@ body {
   text-decoration: none;
 }
 .footer-column_5 {
-    max-width: 260px;
+  max-width: 260px;
 }
 .title_subscribe {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: #1F2041;
-    margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #1f2041;
+  margin-bottom: 20px;
 }
 .info_subscribe {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(31, 32, 65, 0.75);
-    margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  margin-bottom: 20px;
 }
 .form_subscribe {
-    background: #FFFFFF;
-border: 1px solid rgba(31, 32, 65, 0.25);
-border-radius: 4px;
-width: 100%;
-height: 44px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  width: 100%;
+  height: 44px;
+}
+.footer_bottom {
+  border-top: 1px solid rgba(31, 32, 65, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 23px 0 23px 0;
+}
+.footer_copy {
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.75);
+}
+.footer_icons-item {
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+}
+.footer_icons-item:last-child {
+  margin-right: 0;
 }
 /*Footer styles end*/
